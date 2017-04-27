@@ -11,7 +11,7 @@ namespace GITHubTester.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            return View(3);
+            return View();
         }
     }
 }
